@@ -4,7 +4,7 @@ from std_msgs.msg import String
 
 rospy.init_node('Atividade_4_soma')
 
-valor = '0'
+valor = '10'
 
 def topic_callBack (soma_total):
     global valor
